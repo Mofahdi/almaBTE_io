@@ -1,0 +1,24 @@
+<materials>
+  <H5repository root_directory="C:\Users\MALFAHDI\Desktop\JAP\shared_codes\almabte\almaBTE_io\ITC calculations preparation inputs"/>
+  <material label="h-GaN" directory="h-GaN" compound="h-GaN" gridA="15" gridB="15" gridC="15"/>
+  <material label="1443429" directory="1443429" compound="1443429" gridA="18" gridB="18" gridC="3"/>
+</materials>
+<layers>
+  <!-- The index (starting from 1) specifies the order from "top" to "bottom". -->
+  <!-- Thicknesses are expressed in nm. -->
+  <layer label="device" index="1" material="h-GaN" thickness="100"/>
+  <layer label="substrate" index="2" material="1443429" thickness="100"/>
+</layers>
+<simulation>
+  <!-- Set temperature differential, number of particles, and number of space bins. -->
+  <!-- Reservoirs are set to Ttop = Tref + deltaT/2, Tbottom = Tref - deltaT/2. -->
+  <core deltaT="5" particles="1e6" bins="300"/>
+  <!-- Set cartesian vector that describes the normal to the layer structure. -->
+  <transportAxis x="0" y="1" z="0"/>
+  <target directory="."/>
+</simulation>
+
+<spectralflux>
+    <resolution frequencybins="200"/>
+    <locationrange start="1" stop="200" step="1"/>
+</spectralflux>
