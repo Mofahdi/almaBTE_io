@@ -8,5 +8,5 @@
 5. go back to the root directory where h-GaN and 1443429 folders are, and run: `python ITC_inputs.py` which also inherits methods from class ***almaBTE_in*** in **almaBTE_io.py** script
 6. that will create **h-GaN_1443429** folder and the ***steady_montecarlo1d.xml***
 7. run steady_montecarlo1d executable from almaBTE which should generate the files: **basicproperties_300K.txt** and **temperature_300K.csv** files which will enable you to calculate the interfacial thermal conductance (ITC).
-8. if you want to obatain the spectral heat flux along with ITC, run `python ITC_inputs_spectral.py` which will generate **h-GaN_1443429_spectral** folder then run the steady_montecarlo1d executable.
+8. if you want to obatain the spectral heat flux along with ITC, run `python ITC_inputs_spectral.py` which will generate **h-GaN_1443429_spectral** folder then run the steady_montecarlo1d executable on ***steady_montecarlo1d.xml*** which has **spectral_flux** block.
 <br>Note: an example of reading the ITC outputs and spectral heat flux aross the two material layers figure is shown in **ITC and spectral heat flux outputs example**
