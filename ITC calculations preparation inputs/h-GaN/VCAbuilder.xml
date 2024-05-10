@@ -1,0 +1,10 @@
+<singlecrystal>
+  <!-- Equals the current work directory when omitted. -->
+  <materials_repository root_directory=".."/>
+  <compound name="h-GaN"/>
+  <gridDensity A="18" B="18" C="10"/>
+  <!-- Directory is relative to current work directory. -->
+  <target directory="."/>
+
+  <overwrite/>
+</singlecrystal>

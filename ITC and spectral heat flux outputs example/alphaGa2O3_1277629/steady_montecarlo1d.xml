@@ -1,0 +1,29 @@
+<materials>
+  <H5repository root_directory="/work/malfahdi/research/ITC/noncubic/VCA_builder"/>
+  <material label="Ga2O3" directory="Ga2O3" compound="Ga2O3" gridA="17" gridB="17" gridC="9"/>
+  <material label="1277629" directory="1277629" compound="1277629" gridA="19" gridB="19" gridC="22"/>
+</materials>
+<layers>
+  <!-- The index (starting from 1) specifies the order from "top" to "bottom". -->
+  <!-- Thicknesses are expressed in nm. -->
+  <layer label="device" index="1" material="Ga2O3" thickness="100"/>
+  <layer label="substrate" index="2" material="1277629" thickness="100"/>
+</layers>
+<simulation>
+  <!-- Set temperature differential, number of particles, and number of space bins. -->
+  <!-- Reservoirs are set to Ttop = Tref + deltaT/2, Tbottom = Tref - deltaT/2. -->
+  <core deltaT="5" particles="1e6" bins="300"/>
+  <!-- Set cartesian vector that describes the normal to the layer structure. -->
+  <transportAxis x="0" y="1" z="0"/>
+  <target directory="."/>
+</simulation>
+<spectralflux>
+    
+    <!-- Set number of phonon frequency bins -->
+    <resolution frequencybins="300"/>
+
+    <!-- Add a range of locations at which the flux should be resolved -->
+    <!-- Locations are expressed in nm. -->
+    <locationrange start="1" stop="200" step="1"/>
+    
+</spectralflux>
