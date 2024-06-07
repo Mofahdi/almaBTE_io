@@ -1,6 +1,6 @@
 ## steps to run almaBTE VCABuilder and steadyMonteCarlo jobs:
-1. go to h-GaN and 1443429 folders and make sure that POSCAR, FORCE_CONSTANTS, and FORCE_CONSTANTS_3RD
-<br>FORCE_CONSTANTS and FORCE_CONSTANTS_3RD are fake. They only exist there to show an example
+1. go to h-GaN and 1443429 folders and make sure that POSCAR, FORCE_CONSTANTS, and FORCE_CONSTANTS_3RD are available
+<br>in this example, FORCE_CONSTANTS and FORCE_CONSTANTS_3RD are fake. They only exist there to show an example
 2. inside h-GaN and 1443429 folders, run: `python VCA_inputs.py` which uses methods from class ***almaBTE_in*** in **almaBTE_io.py** script
 3. you will see the **_metadta** and **VCAbuilder.xml** files created in both h-GaN and 1443429
 4. run almaBTE executable **VCAbuilder** to generate the phonon properties files that have the following format: compoundId_gridX_gridY_gridZ.h5
