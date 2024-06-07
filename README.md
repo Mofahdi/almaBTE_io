@@ -10,7 +10,8 @@ Python class that 1- creates input files for almaBTE and 2- analyzes outputs fro
 * pandas<br>
 * matplotlib
 3. follow the README.md in the above two examples: example 1: ITC and spectral heat flux calculations inputs example, example 2: IITC and spectral heat flux outputs example
-  <br>###Note:### you have to have the script `almaBTE_io.py` in every path you run a script because you need to inherent classes and class methods from it.
+  <br> 
+## Note: you have to have the script `almaBTE_io.py` in every path you run a script because you need to inherent classes and class methods from it.
 ## References
 [1] "High Throughput Substrate Screening for Interfacial Thermal Management of β-Ga2O3 by Deep Convolutional Neural Network"
 <br>the article should be available at https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en
