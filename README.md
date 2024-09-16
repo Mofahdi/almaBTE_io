@@ -14,6 +14,6 @@ Python class that 1- creates input files for almaBTE and 2- analyzes outputs fro
 ## Note: 
 you have to have the script `almaBTE_io.py` in every path you run a script because you need to inherent classes and class methods from it.
 ## References
-[1] "High Throughput Substrate Screening for Interfacial Thermal Management of β-Ga2O3 by Deep Convolutional Neural Network"
+[1] Al-Fahdi, M.; Hu, M. High Throughput Substrate Screening for Interfacial Thermal Management of β-Ga2o3 by Deep Convolutional Neural Network. **Journal of Applied Physics** *2024*, 135 (20).
 <br>the article should be available at https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en
 <br>Please cite the above article
