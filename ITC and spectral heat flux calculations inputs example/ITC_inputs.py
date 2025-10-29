@@ -23,6 +23,8 @@ almaBTE_in(formula=formula, spec=False).create_steady_montecarlo(formula2=mat,
 								H5_root=VCA_builder_dir,
 								grids1=grids1, 
 								grids2=grids2,
+								thick1=100, 
+								thick2=100, 
 								transport_axis=[0, 1, 0]
 								)
 
